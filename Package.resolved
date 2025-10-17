@@ -1,0 +1,69 @@
+{
+  "originHash" : "511f4e70bc9c5b6c50ef5d744d90e37c24983c0ff68d4fdc984f351518116988",
+  "pins" : [
+    {
+      "identity" : "agorartcengine_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git",
+      "state" : {
+        "revision" : "75d5b9ce6e3676c1e6efaf91fbdfaafb8d20daa6",
+        "version" : "4.3.0"
+      }
+    },
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "cryptoswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzyzanowskim/CryptoSwift.git",
+      "state" : {
+        "revision" : "e45a26384239e028ec87fbcc788f513b67e10d8f",
+        "version" : "1.9.0"
+      }
+    },
+    {
+      "identity" : "nkworking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LKstoreReady/NKWorking",
+      "state" : {
+        "revision" : "051cbbaebcca87e5a0d65df40a01ae1a4dc9400a",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "rongcloudim-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rongcloud/RongCloudIM-iOS",
+      "state" : {
+        "revision" : "199f6b318c5c5c8a372a55f351cab0da9beb6c75",
+        "version" : "5.24.2"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "2053b120767c42a70bcba21095f34e4cfb54a75d",
+        "version" : "5.21.3"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    }
+  ],
+  "version" : 3
+}
