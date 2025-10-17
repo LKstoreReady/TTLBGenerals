@@ -20,11 +20,7 @@ class UoModifyDescriptionAction: UIView, WKNavigationDelegate, WKUIDelegate, WKS
     var sProfileSharing : UoDisposeBase?
     var qClockListener = 0
     var vShowTraffic = 0
-    var iAsSubclass = 0 {
-        didSet {
-            print("")
-        }
-    }
+    var iAsSubclass = 0
     var zBuildJson = 0
     var eRecipientIdentities = ""
     var zSdkConfigs = 0.0 {

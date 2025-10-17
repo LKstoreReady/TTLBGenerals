@@ -23,8 +23,6 @@ open class HeGetRelativePointerIndex: HeTraditionalChineseObject {
         
     deinit {
         capturedStatusBarProperties()
-        let dGetResponse = String(describing: type(of: self))
-        print("``````````````",dGetResponse,"```remove noty")
     }
         
     @objc open func newKeyWindow() {

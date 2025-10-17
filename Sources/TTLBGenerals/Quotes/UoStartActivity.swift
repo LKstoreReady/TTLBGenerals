@@ -2,7 +2,7 @@
 import UIKit
 
 
-public let aExecutePost = NSHomeDirectory().appending("/Library/Wohoo_image/")
+public let aExecutePost = NSHomeDirectory().appending("/Library/Taleoopfile/")
 nonisolated(unsafe) let uHostedDomain = UserDefaults.standard
 nonisolated(unsafe) var oInsideIndex : Bundle!
 nonisolated(unsafe) public var hMacPlatform : UIWindow!
