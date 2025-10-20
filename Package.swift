@@ -16,7 +16,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/LKstoreReady/NKWorking", .exact("1.0.1")),
-        .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .exact("4.3.0")),
+        .package(url: "https://github.com/AgoraIO/AgoraRtcEngine_iOS.git", .exact("4.6.0")),
         .package(url: "https://github.com/rongcloud/RongCloudIM-iOS", .exact("5.24.2")),
         .package(url: "https://github.com/SnapKit/SnapKit.git", .exact("5.7.1")),
         
