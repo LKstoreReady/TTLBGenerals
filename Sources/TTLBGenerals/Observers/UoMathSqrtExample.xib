@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="UoMathSqrtExample" customModule="Taleo_General">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="UoMathSqrtExample" customModule="TTLBGenerals">
             <rect key="frame" x="0.0" y="0.0" width="250" height="54"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -53,8 +53,8 @@
             </constraints>
             <size key="customSize" width="250" height="54"/>
             <connections>
-                <outlet property="pMdiUnity" destination="wpg-Cn-ckj" id="Y6X-QG-jam"/>
                 <outlet property="hIsTranslator" destination="Jiz-14-Mtt" id="Fc7-u3-5CC"/>
+                <outlet property="pMdiUnity" destination="wpg-Cn-ckj" id="Y6X-QG-jam"/>
             </connections>
             <point key="canvasLocation" x="56.488549618320612" y="-9.8591549295774659"/>
         </collectionViewCell>

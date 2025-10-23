@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UoSafeAreaViewEdgesTop" customModule="Taleo_General">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UoSafeAreaViewEdgesTop" customModule="TTLBGenerals">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -180,14 +180,14 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="lnl-N3-jeo" secondAttribute="trailing" id="caI-Dc-Egv"/>
             </constraints>
             <connections>
+                <outlet property="cRemoveIndex" destination="yDc-Xp-jcu" id="LyG-U2-AgX"/>
+                <outlet property="dTemporaryParameters" destination="t2f-t5-6Q2" id="BC2-o6-MMv"/>
+                <outlet property="eFromLegend" destination="HHo-1d-zAM" id="znf-Ee-SVc"/>
                 <outlet property="eProxyId" destination="lnl-N3-jeo" id="23i-ps-QLz"/>
                 <outlet property="hRequestObj" destination="jJl-Q9-iQR" id="EoJ-H9-YI3"/>
-                <outlet property="dTemporaryParameters" destination="t2f-t5-6Q2" id="BC2-o6-MMv"/>
-                <outlet property="cRemoveIndex" destination="yDc-Xp-jcu" id="LyG-U2-AgX"/>
-                <outlet property="qPresetCamera" destination="tqC-Qv-2li" id="hHt-6W-Weo"/>
-                <outlet property="lWithObject" destination="82F-Ty-HmU" id="AMt-Ao-as4"/>
                 <outlet property="kChannelNumber" destination="K53-sZ-M77" id="A8f-jY-MoN"/>
-                <outlet property="eFromLegend" destination="HHo-1d-zAM" id="znf-Ee-SVc"/>
+                <outlet property="lWithObject" destination="82F-Ty-HmU" id="AMt-Ao-as4"/>
+                <outlet property="qPresetCamera" destination="tqC-Qv-2li" id="hHt-6W-Weo"/>
             </connections>
             <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
         </view>

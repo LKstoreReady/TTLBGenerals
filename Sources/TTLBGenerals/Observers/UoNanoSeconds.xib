@@ -10,12 +10,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UoNanoSeconds" customModule="Taleo_General">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UoNanoSeconds" customModule="TTLBGenerals">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haf-rF-xeR">
-                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haf-rF-xeR">
+                    <rect key="frame" x="363" y="0.0" width="30" height="852"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                     <connections>
                         <action selector="createFunctionExpr:" destination="iN0-l3-epB" eventType="touchUpInside" id="aWX-c6-P3Z"/>
@@ -116,11 +116,11 @@
                 <constraint firstItem="Ca8-ug-9TZ" firstAttribute="top" secondItem="c4f-DI-iRK" secondAttribute="bottom" id="wSX-UC-IGw"/>
             </constraints>
             <connections>
-                <outlet property="zExtendsType" destination="Ca8-ug-9TZ" id="v3w-KA-C2K"/>
-                <outlet property="dAttributeClass" destination="7Pz-If-dyf" id="RTI-xa-0Pn"/>
                 <outlet property="aDetailVC" destination="IWD-gp-5Yf" id="Rdb-fx-HtU"/>
+                <outlet property="dAttributeClass" destination="7Pz-If-dyf" id="RTI-xa-0Pn"/>
                 <outlet property="hIsTranslator" destination="C4K-C2-Eog" id="4Ha-QO-xW9"/>
                 <outlet property="pAppendFace" destination="DaF-mQ-7RD" id="1Ea-Tp-Vgs"/>
+                <outlet property="zExtendsType" destination="Ca8-ug-9TZ" id="v3w-KA-C2K"/>
             </connections>
             <point key="canvasLocation" x="96.946564885496173" y="-11.267605633802818"/>
         </view>

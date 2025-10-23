@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeTadamApp" customModule="Taleo_General">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeTadamApp" customModule="TTLBGenerals">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -129,11 +129,11 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="eMd-CE-PGx" secondAttribute="trailing" id="wQO-9Y-y8S"/>
             </constraints>
             <connections>
-                <outlet property="sAssertLinkifies" destination="do4-ax-8DE" id="BmX-rO-7wQ"/>
-                <outlet property="oTargetTimestamp" destination="Mtr-cW-cKO" id="oMV-nL-F9f"/>
-                <outlet property="uNetworkChanged" destination="GPr-Sm-XPw" id="p1S-qV-D8c"/>
-                <outlet property="hIsTranslator" destination="ebV-Tl-LGH" id="zb9-Uu-eIs"/>
                 <outlet property="dBounceIn" destination="BLw-h5-sqz" id="6fF-17-Hn1"/>
+                <outlet property="hIsTranslator" destination="ebV-Tl-LGH" id="zb9-Uu-eIs"/>
+                <outlet property="oTargetTimestamp" destination="Mtr-cW-cKO" id="oMV-nL-F9f"/>
+                <outlet property="sAssertLinkifies" destination="do4-ax-8DE" id="BmX-rO-7wQ"/>
+                <outlet property="uNetworkChanged" destination="GPr-Sm-XPw" id="p1S-qV-D8c"/>
             </connections>
             <point key="canvasLocation" x="96.946564885496173" y="-11.267605633802818"/>
         </view>

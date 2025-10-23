@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeStickerPlaceholderView" customModule="Taleo_General">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeStickerPlaceholderView" customModule="TTLBGenerals">
             <rect key="frame" x="0.0" y="0.0" width="369" height="155"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -127,12 +127,12 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="xInstructLabel" destination="dUf-qk-VwZ" id="ffi-FL-Do4"/>
-                <outlet property="tEnableAttitude" destination="Yvo-lB-LIq" id="qxe-cC-9Zn"/>
-                <outlet property="tDxgiResource" destination="ylB-Ll-gsF" id="e1u-l3-Y6h"/>
-                <outlet property="pContentScale" destination="Ts4-XL-dJW" id="bWQ-M4-4vV"/>
                 <outlet property="cAddCompression" destination="Ch1-f8-cGD" id="XYc-RH-O4i"/>
+                <outlet property="pContentScale" destination="Ts4-XL-dJW" id="bWQ-M4-4vV"/>
                 <outlet property="qDotType" destination="083-hf-BDY" id="dYc-BJ-1lv"/>
+                <outlet property="tDxgiResource" destination="ylB-Ll-gsF" id="e1u-l3-Y6h"/>
+                <outlet property="tEnableAttitude" destination="Yvo-lB-LIq" id="qxe-cC-9Zn"/>
+                <outlet property="xInstructLabel" destination="dUf-qk-VwZ" id="ffi-FL-Do4"/>
             </connections>
             <point key="canvasLocation" x="28.244274809160306" y="-10.211267605633804"/>
         </view>
