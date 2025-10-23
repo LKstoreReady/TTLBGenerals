@@ -25,6 +25,8 @@ import RongIMLibCore
 public var eProcessingSnapshot:Bool = false
 public var isConflict:Bool = false
 public var Isfrontback:Bool = false
+public var isPm:Bool = false
+
 
 public func scheduleLocalNotification(_ userName:String, _ message : RCMessage) {
     let contentStr = message.content as! RCTextMessage
