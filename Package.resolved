@@ -1,5 +1,5 @@
 {
-  "originHash" : "0885fe5d20bc315bb2cb5255ab19218241cf28c5e1e4167c97de2b6285c8a319",
+  "originHash" : "1ff5173e834e7f32708a0fd48c61730e0ab8832823904f76f51ddbd3ecd88d94",
   "pins" : [
     {
       "identity" : "agorainfra_ios",
@@ -43,7 +43,7 @@
       "location" : "https://github.com/LKstoreReady/NKWorking",
       "state" : {
         "revision" : "051cbbaebcca87e5a0d65df40a01ae1a4dc9400a",
-        "version" : "1.0.1"
+        "version" : "1.0.2"
       }
     },
     {
